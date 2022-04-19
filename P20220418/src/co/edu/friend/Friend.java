@@ -8,7 +8,7 @@ public class Friend {
 
 	
 	//생성자.
-	protected Friend() {
+	public Friend() {
 		
 	}
 	public Friend(String name, String phone) {
@@ -21,11 +21,11 @@ public class Friend {
 	}
 
 	//메소드.
-	protected String getName() {
+	 public String getName() {
 		return name;
 	}
 
-	public final void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
