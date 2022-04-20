@@ -1,6 +1,9 @@
 package co.edu.collection;
 
 import co.edu.friend.Friend;
+import co.edu.friend.Gender;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // 컬렉션 ArrayList
@@ -67,4 +70,11 @@ public class FriendServiceArray implements FriendService {
 		}
 	return null;
 }
+
+	@Override
+	public ArrayList<Friend> findGender(Gender gender) {
+		
+		
+		return null;
+	}
 }
